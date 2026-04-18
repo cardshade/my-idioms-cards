@@ -58,7 +58,7 @@ document.getElementById('test-mode-btn').onclick = () => {
     card.classList.remove('flipped');
     // Можно добавить уведомление
     const btn = document.getElementById('test-mode-btn');
-    btn.innerText = "Mode: Guess the meaning!";
+    btn.innerText = "Попробуй вспомнить перевод перед тем как нажать!";
     setTimeout(() => { btn.innerText = "Test Mode"; }, 2000);
 };
 
